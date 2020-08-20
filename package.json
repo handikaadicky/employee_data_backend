@@ -1,0 +1,33 @@
+{
+  "name": "employee_data_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handikaadicky/employee_data_frontend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/handikaadicky/employee_data_frontend/issues"
+  },
+  "homepage": "https://github.com/handikaadicky/employee_data_frontend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mariadb": "^2.4.2",
+    "mongoose": "^5.10.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.1.0",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.4",
+    "twig": "^1.15.2"
+  }
+}
